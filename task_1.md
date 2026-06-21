@@ -595,7 +595,7 @@ plt.show()
 
 ---
 
-## 4. Strengths and Weaknesses
+## 4. Strengths
 
 ### Matplotlib
 
@@ -607,14 +607,7 @@ plt.show()
 - Well-documented and has a large user community.
 - Plots can be saved in many formats like PNG, PDF, SVG, etc.
 
-**Weaknesses:**
 
-- Requires more lines of code even for basic plots.
-- Default plots look plain and need extra styling to look good.
-- Can be confusing for beginners due to the many options available.
-- Statistical plots are not built-in and need to be built manually.
-
----
 
 ### Seaborn
 
@@ -625,13 +618,6 @@ plt.show()
 - Default colors and themes look clean without any extra setup.
 - Works very naturally with Pandas DataFrames.
 - The `hue` parameter makes it easy to add a third variable to any plot.
-
-**Weaknesses:**
-
-- Less control over fine details compared to Matplotlib.
-- Not as flexible for creating unusual or highly customized plots.
-- Slower compared to Matplotlib for large datasets.
-- Still needs Matplotlib for things like saving files, adding titles, and adjusting figure size.
 
 ---
 
